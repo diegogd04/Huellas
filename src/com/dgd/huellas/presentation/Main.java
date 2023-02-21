@@ -1,8 +1,8 @@
-package com.iesam.huellas;
+package com.dgd.huellas.presentation;
 
-import com.iesam.huellas.data.local.CatFileLocalDataSource;
-import com.iesam.huellas.data.remote.CatApiRemoteDataSource;
-import com.iesam.huellas.domain.Cat;
+import com.dgd.huellas.data.local.CatFileLocalDataSource;
+import com.dgd.huellas.data.remote.CatApiRemoteDataSource;
+import com.dgd.huellas.domain.models.Cat;
 
 import java.util.List;
 

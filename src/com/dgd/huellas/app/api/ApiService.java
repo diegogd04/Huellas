@@ -1,6 +1,6 @@
-package com.iesam.huellas.app.api;
+package com.dgd.huellas.app.api;
 
-import com.iesam.huellas.domain.Cat;
+import com.dgd.huellas.domain.models.Cat;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

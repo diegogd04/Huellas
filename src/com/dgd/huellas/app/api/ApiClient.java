@@ -1,4 +1,4 @@
-package com.iesam.huellas.app.api;
+package com.dgd.huellas.app.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

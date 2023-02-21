@@ -1,4 +1,4 @@
-package com.iesam.huellas.domain;
+package com.dgd.huellas.domain.models;
 
 public class Cat {
     private Integer id;

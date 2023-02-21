@@ -1,7 +1,7 @@
-package com.iesam.huellas.data.remote;
+package com.dgd.huellas.data.remote;
 
-import com.iesam.huellas.app.api.ApiClient;
-import com.iesam.huellas.domain.Cat;
+import com.dgd.huellas.app.api.ApiClient;
+import com.dgd.huellas.domain.models.Cat;
 import retrofit2.Response;
 
 import java.io.IOException;

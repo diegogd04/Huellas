@@ -1,18 +1,18 @@
 package com.dgd.huellas.presentation;
 
-import com.dgd.huellas.data.local.CatFileLocalDataSource;
-import com.dgd.huellas.data.remote.CatApiRemoteDataSource;
-import com.dgd.huellas.domain.models.Cat;
+import com.dgd.huellas.data.local.AnimalFileLocalDataSource;
+import com.dgd.huellas.data.remote.AnimalApiRemoteDataSource;
+import com.dgd.huellas.domain.models.Animal;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         //CatDataRepository
-        CatApiRemoteDataSource remoteDataSource = new CatApiRemoteDataSource();
-        List<Cat> cats = remoteDataSource.getCats();
+        AnimalApiRemoteDataSource remoteDataSource = new AnimalApiRemoteDataSource();
+        List<Animal> animals = remoteDataSource.getAnimals();
 
-        CatFileLocalDataSource fileLocalDataSource = CatFileLocalDataSource.getInstance();
-        fileLocalDataSource.saveList(cats);
+        AnimalFileLocalDataSource fileLocalDataSource = AnimalFileLocalDataSource.getInstance();
+        fileLocalDataSource.saveList(animals);
     }
 }

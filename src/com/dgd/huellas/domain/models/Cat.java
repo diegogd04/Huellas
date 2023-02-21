@@ -1,14 +1,13 @@
 package com.dgd.huellas.domain.models;
 
 public class Cat {
-    private Integer id;
+    private Boolean virus;
 
-
-    public Integer getId() {
-        return id;
+    public Boolean getVirus() {
+        return virus;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setVirus(Boolean virus) {
+        this.virus = virus;
     }
 }

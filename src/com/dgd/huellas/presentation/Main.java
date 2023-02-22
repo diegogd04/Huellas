@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        //CatDataRepository
+        //AnimalDataRepository
         AnimalApiRemoteDataSource remoteDataSource = new AnimalApiRemoteDataSource();
         List<Animal> animals = remoteDataSource.getAnimals();
 

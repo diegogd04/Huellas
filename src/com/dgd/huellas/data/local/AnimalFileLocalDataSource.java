@@ -34,6 +34,12 @@ public class AnimalFileLocalDataSource {
         saveToFile(animals);
     }
 
+    public void remove(Animal animal){
+        List<Animal> animals = findAll();
+        animals.remove(animal);
+        saveToFile(animals);
+    }
+
     public void saveList(List<Animal> animals) {
         saveToFile(animals);
     }

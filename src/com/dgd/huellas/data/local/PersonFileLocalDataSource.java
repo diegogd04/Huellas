@@ -1,5 +1,6 @@
 package com.dgd.huellas.data.local;
 
+import com.dgd.huellas.domain.models.Animal;
 import com.dgd.huellas.domain.models.Person;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -31,6 +32,12 @@ public class PersonFileLocalDataSource {
     public void save(Person person) {
         List<Person> people = findAll();
         people.add(person);
+        saveToFile(people);
+    }
+
+    public void remove(Person person){
+        List<Person> people = findAll();
+        people.remove(person);
         saveToFile(people);
     }
 

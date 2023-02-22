@@ -1,22 +1,22 @@
 package com.dgd.huellas.domain.models;
 
 public class Dog extends Animal{
-    private String raza;
-    private Boolean amigable;
+    private String race;
+    private Boolean friendly;
 
-    public String getRaza() {
-        return raza;
+    public String getRace() {
+        return race;
     }
 
-    public void setRaza(String raza) {
-        this.raza = raza;
+    public void setRace(String race) {
+        this.race = race;
     }
 
-    public Boolean getAmigable() {
-        return amigable;
+    public Boolean getFriendly() {
+        return friendly;
     }
 
-    public void setAmigable(Boolean amigable) {
-        this.amigable = amigable;
+    public void setFriendly(Boolean friendly) {
+        this.friendly = friendly;
     }
 }

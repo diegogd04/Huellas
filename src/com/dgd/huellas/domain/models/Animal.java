@@ -2,9 +2,9 @@ package com.dgd.huellas.domain.models;
 
 public class Animal {
     protected Integer id;
-    protected String nombre;
-    protected String fechaNacimiento;
-    protected String sexo;
+    protected String name;
+    protected String birthdate;
+    protected String sex;
 
     public Integer getId() {
         return id;
@@ -14,27 +14,27 @@ public class Animal {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getFechaNacimiento() {
-        return fechaNacimiento;
+    public String getBirthdate() {
+        return birthdate;
     }
 
-    public void setFechaNacimiento(String fechaNacimiento) {
-        this.fechaNacimiento = fechaNacimiento;
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
     }
 
-    public String getSexo() {
-        return sexo;
+    public String getSex() {
+        return sex;
     }
 
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }

@@ -1,12 +1,11 @@
 package com.dgd.huellas.domain.models;
 
-public class Persona {
+public class Partner {
     private Integer id;
     private String name;
     private String surnames;
     private String dni;
-    private String birthday;
-    private String address;
+    private String bankAccount;
 
     public Integer getId() {
         return id;
@@ -40,19 +39,11 @@ public class Persona {
         this.dni = dni;
     }
 
-    public String getBirthday() {
-        return birthday;
+    public String getBankAccount() {
+        return bankAccount;
     }
 
-    public void setBirthday(String birthday) {
-        this.birthday = birthday;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public void setBankAccount(String bankAccount) {
+        this.bankAccount = bankAccount;
     }
 }

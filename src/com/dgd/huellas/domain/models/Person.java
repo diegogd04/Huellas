@@ -1,11 +1,12 @@
 package com.dgd.huellas.domain.models;
 
-public class Socio {
+public class Person {
     private Integer id;
     private String name;
     private String surnames;
     private String dni;
-    private String bankAccount;
+    private String birthday;
+    private String address;
 
     public Integer getId() {
         return id;
@@ -39,11 +40,19 @@ public class Socio {
         this.dni = dni;
     }
 
-    public String getBankAccount() {
-        return bankAccount;
+    public String getBirthday() {
+        return birthday;
     }
 
-    public void setBankAccount(String bankAccount) {
-        this.bankAccount = bankAccount;
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

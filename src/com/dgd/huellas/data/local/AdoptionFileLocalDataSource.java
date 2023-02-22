@@ -35,12 +35,6 @@ public class AdoptionFileLocalDataSource {
         saveToFile(adoptions);
     }
 
-    public void remove(Adoption adoption){
-        List<Adoption> adoptions = findAll();
-        adoptions.remove(adoption);
-        saveToFile(adoptions);
-    }
-
     public void saveList(List<Adoption> adoptions) {
         saveToFile(adoptions);
     }

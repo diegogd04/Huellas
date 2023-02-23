@@ -1,6 +1,5 @@
 package com.dgd.huellas.data.local;
 
-import com.dgd.huellas.domain.models.Animal;
 import com.dgd.huellas.domain.models.Partner;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

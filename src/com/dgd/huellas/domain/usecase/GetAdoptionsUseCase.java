@@ -8,7 +8,7 @@ import java.util.List;
 public class GetAdoptionsUseCase {
     private AdoptionFileLocalDataSource dataSource = AdoptionFileLocalDataSource.getInstance();
 
-    public List<Adoption> execute() {
+    public List<Adoption> execute(Adoption adoption) {
         return dataSource.findAll();
     }
 }

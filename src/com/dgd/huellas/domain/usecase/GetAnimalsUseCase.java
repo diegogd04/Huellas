@@ -8,7 +8,7 @@ import java.util.List;
 public class GetAnimalsUseCase {
     private AnimalFileLocalDataSource dataSource = AnimalFileLocalDataSource.getInstance();
 
-    public List<Animal> execute() {
+    public List<Animal> execute(Animal animal) {
         return dataSource.findAll();
     }
 }

@@ -42,8 +42,8 @@ public class Main {
                     main.AddCat();
                     break;
                 case 2:
-                    System.out.print("ELIMINAR UN GATO");
-                    System.out.print("----------------");
+                    System.out.println("ELIMINAR UN GATO");
+                    System.out.println("----------------");
                     main.RemoveCat();
                     break;
                 case 3:
